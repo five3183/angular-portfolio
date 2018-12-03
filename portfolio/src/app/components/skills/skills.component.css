@@ -1,0 +1,91 @@
+/* Bounce Animation */
+@keyframes bounce {
+   0%{
+      opacity: 0;
+      transform: translateY(-300%);
+   }
+   40% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(-5px);
+   }
+   60% {
+      transform: translateY(3px);
+   }
+   70% {
+      transform: translateY(-3px);
+   }
+   80%{
+      transform: translateY(1px);
+   }
+   90%{
+      transform: translateY(-1px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+
+   }
+}
+/* End Bounce Animation*/
+
+.skills {
+   color: #3779e5;
+   box-sizing: border-box;
+   height: 100vh;
+}
+.skills header hr {
+   box-shadow: 0 0 10px 1px #3779e5;
+   width: 300px;
+}
+.skills-list ul {
+   box-sizing: border-box;
+   text-decoration: none;
+}
+.skills-list ul li {
+   display: inline;
+   text-decoration: none;
+   margin-right: 10px;
+   padding: 5px;
+   color: #3779e5;
+   border: 1px solid #3779e5;
+   border-radius: 10px;
+}
+.skills-list .languages {
+   opacity: 0;
+   animation: bounce 1.5s forwards;
+}
+.skills-list .cheat-codes {
+   opacity: 0;
+   animation: bounce 1.5s forwards;
+   animation-delay: .5s;
+}
+.skills-list .front-frameworks {
+   opacity: 0;
+   animation: bounce 1.5s forwards;
+   animation-delay: 1s;
+
+}
+.skills-list .back-frameworks {
+   opacity: 0;
+   animation: bounce 1.5s forwards;
+   animation-delay: 1.5s;
+
+}
+.skills-list .database {
+   opacity: 0;
+   animation: bounce 1.5s forwards;
+   animation-delay: 2s;
+
+}
+.skills-list .js-library {
+   opacity: 0;
+   animation: bounce 1.5s forwards;
+   animation-delay: 2.5s;
+
+}
+.skills-list ul li:hover {
+   color: white;
+   background-color: #3779e5;
+}

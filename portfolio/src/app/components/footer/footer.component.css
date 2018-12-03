@@ -1,0 +1,16 @@
+footer {
+	text-align: center;
+	font-size: 85%;
+	color: #FFF;
+}
+footer h6 {
+   height: 40px; 
+   width: 100%;
+   text-align: center;
+   box-sizing: border-box;
+   margin-top: 0;
+   margin-bottom: -10px;
+   padding: 15px;
+   background-color: #142d54;
+
+}

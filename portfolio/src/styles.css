@@ -1,0 +1,156 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 120%;
+   color: white;
+   margin: 0;
+}
+.row {
+	width: 100%;
+	max-width: 1257px;
+	margin: auto;
+   box-sizing: border-box;
+}
+.col {
+	float: left;
+   width: 100%;
+	box-sizing: border-box;
+}
+.container {
+   max-width: 100%;
+   text-align: center;
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+/* FLOAT CLEAR FIX */
+.row:before, 
+.row:after,
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+.row:after,
+.group:after {
+	clear: both;
+}
+
+.row,
+.group {
+	zoom: 1;
+}
+
+/* COL SIZING mobile screens (base sizing) */
+
+@media screen and (min-width: 480px) {
+   .col-xs-11 {width: 91.662%;}
+   .col-xs-10 {width: 83.332%;}
+   .col-xs-9 {width: 75%;}
+   .col-xs-8 {width: 66.662%;}
+   .col-xs-7 {width: 58.331%;}
+   .col-xs-6 {width: 50%;}
+   .col-xs-5 {width: 41.662%;}
+   .col-xs-4 {width: 33.332%;}
+   .col-xs-3 {width: 25%;}
+   .col-xs-2 {width: 16.662%;}
+   .col-xs-1 {width: 8.332%;}
+}
+
+@media screen and (min-width: 768px) {
+	.col-sm-11 {width: 91.662%;}
+	.col-sm-10 {width: 83.332%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-8 {width: 66.662%;}
+	.col-sm-7 {width: 58.331%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-5 {width: 41.662%;}
+	.col-sm-4 {width: 33.332%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-2 {width: 16.662%;}
+	.col-sm-1 {width: 8.332%;}
+}
+
+@media screen and (min-width: 1024px) {
+	.col-md-11 {width: 91.662%;}
+	.col-md-10 {width: 83.332%;}
+	.col-md-9 {width: 75%;}
+	.col-md-8 {width: 66.662%;}
+	.col-md-7 {width: 58.331%;}
+	.col-md-6 {width: 50%;}
+	.col-md-5 {width: 41.662%;}
+	.col-md-4 {width: 33.332%;}
+	.col-md-3 {width: 25%;}
+	.col-md-2 {width: 16.662%;}
+	.col-md-1 {width: 8.332%;}
+}
+
+@media screen and (min-width: 1280px) {
+	.col-lg-11 {width: 91.662%;}
+	.col-lg-10 {width: 83.332%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-8 {width: 66.662%;}
+	.col-lg-7 {width: 58.331%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-5 {width: 41.662%;}
+	.col-lg-4 {width: 33.332%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-2 {width: 16.662%;}
+	.col-lg-1 {width: 8.332%;}
+}
+/* ************************************** */
+/* Min width */
+@media screen and (min-width: 150px) {
+   .head-container nav {
+      display: none;
+   }
+}
+
+/* iPhone 5/SE */
+@media screen and (min-width: 320px) {
+   .head-container nav {
+      display: none;
+   }
+   .landing {
+      padding-top: 20px;;
+   }
+   .skills ul {
+      padding: 0;
+   }
+   .projects {
+      clear: both;
+      padding: 20px 35px 35px 35px;
+   } 
+}
+/* iPhone 6/7/8 */
+@media screen and (min-width: 375px) {
+   .head-container nav {
+      display: none;
+   }
+   .landing {
+      padding-top: 20px;;
+   }
+   .skills ul {
+      padding: 0;
+   }
+   .projects {
+      clear: both;
+      padding: 20px 65px 65px 65px;
+   } 
+}
+/* iPhone 6/7/8 plus */
+@media screen and (min-width: 414px) {
+   .landing {
+      padding-top: 50px;;
+   }
+   .projects {
+      clear: both;
+      padding: 20px 80px 80px 80px;
+      
+   } 
+}
+/* iPad  */
+@media screen and (min-width: 550px) {
+   .head-container nav {
+      display: inline-block;
+   }
+}
